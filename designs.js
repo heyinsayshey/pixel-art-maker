@@ -23,7 +23,7 @@ function deleteGrid(){
   };
 };
 
-//Making grid function, add eventlistener for each cells
+//Making grid function, add onclick attribute for each cells to change bgcolor.
 function makeGrid(){
   h = pixelHeight.value;
   w = pixelWidth.value;
