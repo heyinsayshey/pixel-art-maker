@@ -25,16 +25,16 @@ function deleteGrid(){
 
 //Making grid function, add onclick attribute for each cells to change bgcolor.
 function makeGrid(){
-  h = pixelHeight.value;
-  w = pixelWidth.value;
+  height = pixelHeight.value;
+  width = pixelWidth.value;
   //remove grid first when click submit Button
   deleteGrid();
   //make a new Grid
-  for (var r=0; r<w; r++){
+  for (var r=0; r<height; r++){
     var tr = document.createElement('tr');
     var table = document.querySelector('table')
     table.appendChild(tr);
-    for (var c=0; c<h; c++){
+    for (var c=0; c<width; c++){
       var td = document.createElement('td');
       tr.appendChild(td);
       //add background color in the cell.
